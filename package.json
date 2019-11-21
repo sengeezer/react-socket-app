@@ -13,5 +13,9 @@
     "express"
   ],
   "author": "Fabio M. Albertin <fabio@albertin.co.uk> (http://ifab.io/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
 }
