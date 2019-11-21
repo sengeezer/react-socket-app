@@ -10,10 +10,15 @@ const server = http.createServer(app);
 const io = socketIO(server);
 
 io.on('connection', (socket) => {
-  console.log('User connected');
+  console.log('New client connected');
+
+  socket.on('change color', (color) => {
+    console.log(`Color changed to ${color}`);
+    io.sockets.emit('change color', color);
+  });
 
   socket.on('disconnect', () => {
-    console.log('user disconnected');
+    console.log('client disconnected');
   });
 });
 
