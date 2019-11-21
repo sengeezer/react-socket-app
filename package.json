@@ -1,0 +1,17 @@
+{
+  "name": "react-socket-app",
+  "version": "0.0.1",
+  "description": "Example React websocket app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "socket",
+    "websocket",
+    "express"
+  ],
+  "author": "Fabio M. Albertin <fabio@albertin.co.uk> (http://ifab.io/)",
+  "license": "MIT"
+}
