@@ -30,9 +30,6 @@ class App extends Component {
   }
 
   render() {
-    // test for connections
-    const socket = socketIOClient(this.state.endpoint);
-
     return (
       <div className="App">
         <button onClick={() => this.send()}>Change color</button>
